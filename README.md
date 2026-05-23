@@ -124,15 +124,30 @@ Implemented advanced SQL queries, including
 
 ### Dashboard Overview
 
-(Add image here)
+![image](Screenshots/1.png)
+![image](Screenshots/1.1.png)
+![image](Screenshots/2.png)
+![image](Screenshots/2.1.png)
+![image](Screenshots/3.png)
+![image](Screenshots/3.1.png)
+![image](Screenshots/4.png)
+![image](Screenshots/4.1.png)
+
+### RLS
+
+![image](Screenshots/RLS.png)
+![image](Screenshots/RLS.1.png)
 
 ### SQL Analytics
 
-(Add image here)
+![image](Screenshots/Actual gdp vs forecast gdp.png)
+![image](Screenshots/Actual GDP vs Forecast GDP Difference.png)
+![image](Screenshots/GDP rank change.png)
+![image](Screenshots/GDP Rank Change Actual vs Forecast.png)
+![image](Screenshots/Highest inflation.png)
+![image](Screenshots/Highest Inflation Year per Country.png)
+![image](Screenshots/Star schema.png)
 
-### Star Schema
-
-(Add image here)
 
 ---
 
