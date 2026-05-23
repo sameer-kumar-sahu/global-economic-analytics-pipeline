@@ -2,7 +2,53 @@
 
 ## Overview
 
-End-to-end ETL and analytics pipeline that extracts global economic indicators from the World Bank API, transforms and stores data in MySQL, applies forecasting models, and visualizes insights in Power BI.
+An end-to-end ETL and analytics pipeline that extracts global economic indicators from the World Bank API, transforms and stores data in MySQL, applies machine learning forecasting models, and visualizes insights through interactive Power BI dashboards.
+
+---
+
+## Project Objectives
+
+- Build a scalable ETL pipeline
+- Perform economic trend analysis
+- Implement dimensional modeling using a star schema
+- Apply machine learning forecasting
+- Create interactive business intelligence dashboards
+- Demonstrate SQL analytics and reporting workflows
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Programming | Python |
+| Data Processing | Pandas |
+| Database | MySQL |
+| ORM(Object-Relational Mapping) | SQLAlchemy |
+| BI & Visualization | Power BI |
+| Machine Learning | Scikit-learn |
+| Version Control | Git + GitHub |
+| CI/CD | GitHub Actions |
+
+---
+
+## Pipeline Architecture
+
+```text
+World Bank API
+        ↓
+Extract Layer
+        ↓
+Transformation Layer
+        ↓
+Forecasting Layer
+        ↓
+MySQL Database
+        ↓
+Star Schema Modeling
+        ↓
+Power BI Dashboard
+```
 
 ---
 
@@ -10,31 +56,13 @@ End-to-end ETL and analytics pipeline that extracts global economic indicators f
 
 - Automated ETL pipeline using Python
 - Multi-country economic data extraction
-- GDP, Inflation, and Population analytics
-- MySQL database integration
+- GDP, Inflation, and Population analysis
 - Star schema dimensional modeling
-- Machine Learning forecasting
-- Power BI interactive dashboard
-- Scheduled automation
+- SQL analytics and reporting queries
+- Machine learning forecasting
+- Interactive Power BI dashboard
+- Row-Level Security (RLS)
 - GitHub Actions CI workflow
-
----
-
-## Tech Stack
-
-- Python
-- Pandas
-- MySQL
-- SQLAlchemy
-- Power BI
-- Scikit-learn
-- GitHub Actions
-
----
-
-## Pipeline Architecture
-
-API → Extract → Transform → Forecast → Load → MySQL → Power BI
 
 ---
 
@@ -60,34 +88,76 @@ API → Extract → Transform → Forecast → Load → MySQL → Power BI
 
 Implemented Linear Regression forecasting for:
 
-- GDP
-- Population
+- GDP prediction
+- Population forecasting
+
+---
+
+## Power BI Dashboard
+
+### Dashboard Features
+
+- KPI Cards
+- Economic trend analysis
+- Forecast insights
+- Dynamic slicers
+- Country comparison
+- Row-Level Security (RLS)
+
+---
+
+## SQL Analytics
+
+Implemented advanced SQL queries, including:
+
+- Window functions
+- Ranking analysis
+- Forecast comparison
+- Aggregate reporting
+- Star schema joins
+- CTE-based analytics
+
+---
+
+## Screenshots
+
+### Dashboard Overview
+
+(Add image here)
+
+### SQL Analytics
+
+(Add image here)
+
+### Star Schema
+
+(Add image here)
 
 ---
 
 ## How to Run
 
-### 1. Create virtual environment
+### 1. Create Virtual Environment
 
 ```bash
 python -m venv venv
 ```
 
-### 2. Activate virtual environment
+### 2. Activate Environment
 
 ```bash
 venv\Scripts\activate
 ```
 
-### 3. Install requirements
+### 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Configure `.env`
+### 4. Configure Environment Variables
 
-Create a `.env` file with:
+Create a `.env` file:
 
 ```env
 DB_HOST=127.0.0.1
@@ -97,7 +167,7 @@ DB_USER=root
 DB_PASSWORD=your_password
 ```
 
-### 5. Run pipeline
+### 5. Run Pipeline
 
 ```bash
 python Scripts/main.py
@@ -107,7 +177,7 @@ python Scripts/main.py
 
 ## Future Improvements
 
-- Airflow orchestration
+- Apache Airflow orchestration
 - Cloud deployment
 - Advanced forecasting models
 - Incremental loading
