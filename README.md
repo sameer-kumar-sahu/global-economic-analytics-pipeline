@@ -108,7 +108,8 @@ Implemented Linear Regression forecasting for:
 
 ## SQL Analytics
 
-Implemented advanced SQL queries, including:
+
+Implemented advanced SQL queries, including
 
 - Window functions
 - Ranking analysis
