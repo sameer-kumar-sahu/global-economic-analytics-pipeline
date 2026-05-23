@@ -140,13 +140,14 @@ Implemented advanced SQL queries, including
 
 ### SQL Analytics
 
-![image](Screenshots/Actual gdp vs forecast gdp.png)
-![image](Screenshots/Actual GDP vs Forecast GDP Difference.png)
-![image](Screenshots/GDP rank change.png)
-![image](Screenshots/GDP Rank Change Actual vs Forecast.png)
-![image](Screenshots/Highest inflation.png)
-![image](Screenshots/Highest Inflation Year per Country.png)
-![image](Screenshots/Star schema.png)
+![image](Screenshots/5.png)
+![image](Screenshots/5.1.png)
+![image](Screenshots/6.png)
+![image](Screenshots/6.1.png)
+![image](Screenshots/7.png)
+![image](Screenshots/7.1.png)
+![image](Screenshots/8.png)
+
 
 
 ---
